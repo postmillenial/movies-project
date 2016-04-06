@@ -1,7 +1,7 @@
 "Defines the movie class"
 
 class Movie(object):
-    "This is the class"
+    "Movie class to store title, synopsis, poster URL and youtube trailer URL"
 
     def __init__(self, movie_title, movie_storyline, poster_image,
                  trailer_youtube_url):
