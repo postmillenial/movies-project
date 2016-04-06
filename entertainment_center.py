@@ -4,6 +4,8 @@ import media
 import fresh_tomatoes
 
 if __name__ == "__main__":
+
+    "This section defines the movie library"
     toystory = media.Movie("Toy Story", "A story of some kids angsty sheltered toys",
                            "http://www.gstatic.com/tv/thumb/movieposters/17420/p17420_p_v8_ab.jpg",
                            "https://www.youtube.com/watch?v=KYz2wyBy3kc")
@@ -22,4 +24,6 @@ if __name__ == "__main__":
 
     movies = [toystory, avatar, amelie, ibm]
 
+    # fresh_tomatoes generates and opens the webpage to display the movie
+    # library.
     fresh_tomatoes.open_movies_page(movies)
